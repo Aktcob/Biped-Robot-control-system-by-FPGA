@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Jul 08 15:59:00 2016
+# Process ID: 5660
+# Log file: C:/Users/lenovo/Desktop/blue/blue.runs/clk_wiz_0_synth_1/clk_wiz_0.vds
+# Journal file: C:/Users/lenovo/Desktop/blue/blue.runs/clk_wiz_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source clk_wiz_0.tcl -notrace

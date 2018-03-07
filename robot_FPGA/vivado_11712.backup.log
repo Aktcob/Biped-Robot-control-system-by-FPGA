@@ -1,0 +1,139 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Aug 12 20:54:15 2016
+# Process ID: 8592
+# Log file: C:/Users/lenovo/Desktop/comeon/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/comeon\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/comeon/blue.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 624.566 ; gain = 81.152
+reset_run impl_1
+launch_runs impl_1
+[Fri Aug 12 22:40:21 2016] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/comeon/blue.runs/impl_1/runme.log
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a15tcsg324-2L
+Top: state
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:104]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:02:08 ; elapsed = 01:47:43 . Memory (MB): peak = 758.730 ; gain = 546.395
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'state' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:23]
+	Parameter T1S bound to: 20000000 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'forward' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/forward.v:3]
+	Parameter T2S bound to: 3000000 - type: integer 
+	Parameter stand_up bound to: 3'b000 
+	Parameter r_dev bound to: 3'b001 
+	Parameter move_l bound to: 3'b010 
+	Parameter l_dev bound to: 3'b011 
+	Parameter move_r bound to: 3'b100 
+	Parameter restore bound to: 3'b101 
+	Parameter stop bound to: 3'b110 
+INFO: [Synth 8-638] synthesizing module 'pwm' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/pwm.v:23]
+	Parameter T20MS bound to: 2000000 - type: integer 
+	Parameter T20US bound to: 2000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pwm' (1#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/pwm.v:23]
+INFO: [Synth 8-256] done synthesizing module 'forward' (2#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/forward.v:3]
+INFO: [Synth 8-638] synthesizing module 'uart_top' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/uart_top.v:23]
+	Parameter T1S bound to: 100000000 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'speed_select_rx' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/speed_select_rx.v:23]
+INFO: [Synth 8-256] done synthesizing module 'speed_select_rx' (3#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/speed_select_rx.v:23]
+INFO: [Synth 8-638] synthesizing module 'uart_rx' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/uart_rx.v:23]
+INFO: [Synth 8-256] done synthesizing module 'uart_rx' (4#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/uart_rx.v:23]
+INFO: [Synth 8-638] synthesizing module 'uart_tx' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/uart_tx.v:23]
+INFO: [Synth 8-256] done synthesizing module 'uart_tx' (5#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/uart_tx.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/lenovo/Desktop/comeon/.Xil/Vivado-8592-lenovo1/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (6#1) [C:/Users/lenovo/Desktop/comeon/.Xil/Vivado-8592-lenovo1/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'uart_top' (7#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/uart_top.v:23]
+INFO: [Synth 8-638] synthesizing module 'sonic' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/sonic.v:21]
+INFO: [Synth 8-638] synthesizing module 'sonic_detect' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/sonic_detect.v:21]
+	Parameter idle bound to: 2'b00 
+	Parameter state1 bound to: 2'b01 
+	Parameter state2 bound to: 2'b10 
+INFO: [Synth 8-256] done synthesizing module 'sonic_detect' (8#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/sonic_detect.v:21]
+INFO: [Synth 8-638] synthesizing module 'smg_ip_model' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/smg_ip_model.v:23]
+WARNING: [Synth 8-567] referenced signal 'data' should be on the sensitivity list [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/smg_ip_model.v:44]
+INFO: [Synth 8-226] default block is never used [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/smg_ip_model.v:56]
+INFO: [Synth 8-256] done synthesizing module 'smg_ip_model' (9#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/smg_ip_model.v:23]
+INFO: [Synth 8-256] done synthesizing module 'sonic' (10#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/sonic.v:21]
+INFO: [Synth 8-226] default block is never used [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:56]
+INFO: [Synth 8-226] default block is never used [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:79]
+WARNING: [Synth 8-3848] Net pwm7 in module/entity state does not have driver. [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:29]
+WARNING: [Synth 8-3848] Net pwm8 in module/entity state does not have driver. [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:29]
+INFO: [Synth 8-256] done synthesizing module 'state' (11#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:23]
+WARNING: [Synth 8-3331] design state has unconnected port pwm7
+WARNING: [Synth 8-3331] design state has unconnected port pwm8
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:02:10 ; elapsed = 01:47:46 . Memory (MB): peak = 796.426 ; gain = 584.090
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:11 ; elapsed = 01:47:46 . Memory (MB): peak = 796.426 ; gain = 584.090
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/lenovo/Desktop/comeon/blue.runs/clk_wiz_0_synth_1/clk_wiz_0.dcp' for cell 'blue/instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/lenovo/Desktop/comeon/blue.runs/clk_wiz_0_synth_1/clk_wiz_0.dcp' for cell 'csb/instance_name'
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7a15tcsg324-2L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+CRITICAL WARNING: [Shape Builder 18-119] Failed to create I/OLOGIC Route Through shape for instance csb/instance_name/inst/clkin1_ibufg. Found overlapping instances within the shape: blue/instance_name/inst/clkin1_ibufg and csb/instance_name/inst/clkin1_ibufg.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/lenovo/Desktop/comeon/.Xil/Vivado-8592-lenovo1/dcp/clk_wiz_0_in_context.xdc] for cell 'blue/instance_name'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/comeon/.Xil/Vivado-8592-lenovo1/dcp/clk_wiz_0_in_context.xdc] for cell 'blue/instance_name'
+Parsing XDC File [C:/Users/lenovo/Desktop/comeon/.Xil/Vivado-8592-lenovo1/dcp/clk_wiz_0_in_context.xdc] for cell 'csb/instance_name'
+WARNING: [Constraints 18-619] A clock with name 'clk' already exists, overwriting the previous clock with the same name. [C:/Users/lenovo/Desktop/comeon/.Xil/Vivado-8592-lenovo1/dcp/clk_wiz_0_in_context.xdc:1]
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/comeon/.Xil/Vivado-8592-lenovo1/dcp/clk_wiz_0_in_context.xdc] for cell 'csb/instance_name'
+Parsing XDC File [c:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'blue/instance_name/inst'
+Finished Parsing XDC File [c:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'blue/instance_name/inst'
+Parsing XDC File [c:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'csb/instance_name/inst'
+Finished Parsing XDC File [c:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'csb/instance_name/inst'
+Parsing XDC File [c:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'blue/instance_name/inst'
+WARNING: [Constraints 18-619] A clock with name 'clk' already exists, overwriting the previous clock with the same name. [c:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:55]
+Finished Parsing XDC File [c:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'blue/instance_name/inst'
+Parsing XDC File [c:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'csb/instance_name/inst'
+WARNING: [Constraints 18-619] A clock with name 'clk' already exists, overwriting the previous clock with the same name. [c:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:55]
+Finished Parsing XDC File [c:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'csb/instance_name/inst'
+INFO: [Timing 38-2] Deriving generated clocks
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/state_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/state_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/lenovo/Desktop/comeon/blue.srcs/constrs_1/new/state.xdc]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Instance csb/instance_name/inst/clkin1_ibufg can not be placed in INBUF_EN of site IOB_X0Y26 because the bel is occupied by blue/instance_name/inst/clkin1_ibufg. This could be caused by bel constraint conflict [C:/Users/lenovo/Desktop/comeon/blue.srcs/constrs_1/new/state.xdc:1]
+Resolution: Verify the location constraints for differential ports are correctly specified in your constraints. The Site type should be of form: IO_LxxP for P-side, and IO_LxxN for N-side (Neg Diff Pair) 
+WARNING: [Vivado 12-507] No nets matched 'clk_IBUF'. [C:/Users/lenovo/Desktop/comeon/blue.srcs/constrs_1/new/state.xdc:75]
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/comeon/blue.srcs/constrs_1/new/state.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/lenovo/Desktop/comeon/blue.srcs/constrs_1/new/state.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/state_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-141] Inserted 28 OBUFs to IO ports without IO buffers.
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:02:28 ; elapsed = 01:48:02 . Memory (MB): peak = 1100.758 ; gain = 888.422
+36 Infos, 11 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:23 . Memory (MB): peak = 1100.758 ; gain = 345.027
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Fri Aug 12 23:10:31 2016] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/comeon/blue.runs/synth_1/runme.log
+[Fri Aug 12 23:10:31 2016] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/comeon/blue.runs/impl_1/runme.log

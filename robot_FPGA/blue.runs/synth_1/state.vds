@@ -1,0 +1,547 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat Aug 13 12:39:14 2016
+# Process ID: 9788
+# Log file: C:/Users/lenovo/Desktop/comeon/blue.runs/synth_1/state.vds
+# Journal file: C:/Users/lenovo/Desktop/comeon/blue.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source state.tcl -notrace
+Command: synth_design -top state -part xc7a15tcsg324-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a15t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a15t'
+INFO: [Common 17-1223] The version limit for your license is '2015.06' and will expire in -410 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:104]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 274.027 ; gain = 61.672
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'state' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:23]
+	Parameter T1S bound to: 20000000 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'forward' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/forward.v:3]
+	Parameter T2S bound to: 3000000 - type: integer 
+	Parameter stand_up bound to: 3'b000 
+	Parameter r_dev bound to: 3'b001 
+	Parameter move_l bound to: 3'b010 
+	Parameter l_dev bound to: 3'b011 
+	Parameter move_r bound to: 3'b100 
+	Parameter restore bound to: 3'b101 
+	Parameter stop bound to: 3'b110 
+	Parameter Null bound to: 3'b111 
+INFO: [Synth 8-638] synthesizing module 'pwm' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/pwm.v:23]
+	Parameter T20MS bound to: 2000000 - type: integer 
+	Parameter T20US bound to: 2000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pwm' (1#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/pwm.v:23]
+INFO: [Synth 8-256] done synthesizing module 'forward' (2#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/forward.v:3]
+INFO: [Synth 8-638] synthesizing module 'uart_top' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/uart_top.v:23]
+	Parameter T1S bound to: 100000000 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'speed_select_rx' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/speed_select_rx.v:23]
+INFO: [Synth 8-256] done synthesizing module 'speed_select_rx' (3#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/speed_select_rx.v:23]
+INFO: [Synth 8-638] synthesizing module 'uart_rx' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/uart_rx.v:23]
+INFO: [Synth 8-256] done synthesizing module 'uart_rx' (4#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/uart_rx.v:23]
+INFO: [Synth 8-638] synthesizing module 'uart_tx' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/uart_tx.v:23]
+INFO: [Synth 8-256] done synthesizing module 'uart_tx' (5#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/uart_tx.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/lenovo/Desktop/comeon/blue.runs/synth_1/.Xil/Vivado-9788-lenovo1/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (6#1) [C:/Users/lenovo/Desktop/comeon/blue.runs/synth_1/.Xil/Vivado-9788-lenovo1/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'uart_top' (7#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/uart_top.v:23]
+INFO: [Synth 8-638] synthesizing module 'sonic' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/sonic.v:21]
+INFO: [Synth 8-638] synthesizing module 'sonic_detect' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/sonic_detect.v:21]
+	Parameter idle bound to: 2'b00 
+	Parameter state1 bound to: 2'b01 
+	Parameter state2 bound to: 2'b10 
+INFO: [Synth 8-256] done synthesizing module 'sonic_detect' (8#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/sonic_detect.v:21]
+INFO: [Synth 8-638] synthesizing module 'smg_ip_model' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/smg_ip_model.v:23]
+WARNING: [Synth 8-567] referenced signal 'data' should be on the sensitivity list [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/smg_ip_model.v:44]
+INFO: [Synth 8-226] default block is never used [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/smg_ip_model.v:56]
+INFO: [Synth 8-256] done synthesizing module 'smg_ip_model' (9#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/smg_ip_model.v:23]
+INFO: [Synth 8-256] done synthesizing module 'sonic' (10#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/sonic.v:21]
+INFO: [Synth 8-226] default block is never used [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:56]
+INFO: [Synth 8-226] default block is never used [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:79]
+WARNING: [Synth 8-3848] Net pwm7 in module/entity state does not have driver. [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:29]
+WARNING: [Synth 8-3848] Net pwm8 in module/entity state does not have driver. [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:29]
+INFO: [Synth 8-256] done synthesizing module 'state' (11#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:23]
+WARNING: [Synth 8-3331] design state has unconnected port pwm7
+WARNING: [Synth 8-3331] design state has unconnected port pwm8
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 307.746 ; gain = 95.391
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 307.746 ; gain = 95.391
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a15tcsg324-2L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/lenovo/Desktop/comeon/blue.runs/synth_1/.Xil/Vivado-9788-lenovo1/dcp/clk_wiz_0_in_context.xdc] for cell 'blue/instance_name'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/comeon/blue.runs/synth_1/.Xil/Vivado-9788-lenovo1/dcp/clk_wiz_0_in_context.xdc] for cell 'blue/instance_name'
+Parsing XDC File [C:/Users/lenovo/Desktop/comeon/blue.runs/synth_1/.Xil/Vivado-9788-lenovo1/dcp/clk_wiz_0_in_context.xdc] for cell 'csb/instance_name'
+WARNING: [Constraints 18-619] A clock with name 'clk' already exists, overwriting the previous clock with the same name. [C:/Users/lenovo/Desktop/comeon/blue.runs/synth_1/.Xil/Vivado-9788-lenovo1/dcp/clk_wiz_0_in_context.xdc:1]
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/comeon/blue.runs/synth_1/.Xil/Vivado-9788-lenovo1/dcp/clk_wiz_0_in_context.xdc] for cell 'csb/instance_name'
+Parsing XDC File [C:/Users/lenovo/Desktop/comeon/blue.srcs/constrs_1/new/state.xdc]
+WARNING: [Vivado 12-507] No nets matched 'blue/instance_name/inst/clk_in1_clk_wiz_0'. [C:/Users/lenovo/Desktop/comeon/blue.srcs/constrs_1/new/state.xdc:74]
+WARNING: [Vivado 12-507] No nets matched 'clk_IBUF'. [C:/Users/lenovo/Desktop/comeon/blue.srcs/constrs_1/new/state.xdc:75]
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/comeon/blue.srcs/constrs_1/new/state.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/lenovo/Desktop/comeon/blue.srcs/constrs_1/new/state.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/state_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 615.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 615.969 ; gain = 403.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a15tcsg324-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 615.969 ; gain = 403.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  C:/Users/lenovo/Desktop/comeon/blue.runs/synth_1/.Xil/Vivado-9788-lenovo1/dcp/clk_wiz_0_in_context.xdc, line 3).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 615.969 ; gain = 403.613
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'over_reg' into 'slide_over_reg' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/forward.v:64]
+INFO: [Synth 8-5545] ROM "change_flag" won't be mapped to RAM because address size (33) is larger than maximum supported(18)
+INFO: [Synth 8-5546] ROM "back_over" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk_bps_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "bps_start_r" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bps_start_r" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "clk_2s" won't be mapped to RAM because address size (33) is larger than maximum supported(18)
+INFO: [Synth 8-5545] ROM "clk_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+INFO: [Synth 8-5545] ROM "clk_400Hz" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+INFO: [Synth 8-5545] ROM "flag" won't be mapped to RAM because address size (33) is larger than maximum supported(18)
+INFO: [Synth 8-5545] ROM "data_reg" won't be mapped to RAM because address size (33) is larger than maximum supported(18)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 615.969 ; gain = 403.613
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 9     
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     24 Bit       Adders := 1     
+	   2 Input     22 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 12    
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               33 Bit    Registers := 9     
+	               32 Bit    Registers := 1     
+	               24 Bit    Registers := 2     
+	               22 Bit    Registers := 1     
+	                8 Bit    Registers := 11    
+	                4 Bit    Registers := 3     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 41    
++---Muxes : 
+	   4 Input     24 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 82    
+	   3 Input      8 Bit        Muxes := 8     
+	   5 Input      8 Bit        Muxes := 8     
+	   8 Input      8 Bit        Muxes := 2     
+	   6 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	  11 Input      8 Bit        Muxes := 1     
+	  16 Input      8 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   5 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 12    
+	   2 Input      3 Bit        Muxes := 22    
+	   3 Input      2 Bit        Muxes := 7     
+	   2 Input      2 Bit        Muxes := 3     
+	   5 Input      2 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 16    
+	   2 Input      1 Bit        Muxes := 183   
+	   6 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 9     
+	   5 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module state 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
++---Registers : 
+	               33 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	  32 Input      6 Bit        Muxes := 1     
+Module pwm 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
++---Registers : 
+	               33 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module forward 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 12    
++---Registers : 
+	               33 Bit    Registers := 1     
+	                8 Bit    Registers := 6     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 82    
+	   3 Input      8 Bit        Muxes := 8     
+	   5 Input      8 Bit        Muxes := 8     
+	   8 Input      8 Bit        Muxes := 2     
+	   6 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 12    
+	   2 Input      3 Bit        Muxes := 22    
+	   3 Input      2 Bit        Muxes := 7     
+	   2 Input      2 Bit        Muxes := 3     
+	   8 Input      1 Bit        Muxes := 16    
+	   2 Input      1 Bit        Muxes := 176   
+	   6 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 7     
+	   5 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 2     
+Module speed_select_rx 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module uart_rx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	  11 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module uart_tx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module uart_top 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
++---Registers : 
+	               33 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module sonic_detect 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     24 Bit       Adders := 1     
+	   2 Input     22 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 2     
+	               22 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input     24 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module smg_ip_model 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  16 Input      8 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 615.969 ; gain = 403.613
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP pwm_out3, operation Mode is: (A:0x7d0)*B.
+DSP Report: operator pwm_out3 is absorbed into DSP pwm_out3.
+DSP Report: Generating DSP pwm_out3, operation Mode is: (A:0x7d0)*B.
+DSP Report: operator pwm_out3 is absorbed into DSP pwm_out3.
+DSP Report: Generating DSP pwm_out3, operation Mode is: (A:0x7d0)*B.
+DSP Report: operator pwm_out3 is absorbed into DSP pwm_out3.
+DSP Report: Generating DSP pwm_out3, operation Mode is: (A:0x7d0)*B.
+DSP Report: operator pwm_out3 is absorbed into DSP pwm_out3.
+DSP Report: Generating DSP pwm_out3, operation Mode is: (A:0x7d0)*B.
+DSP Report: operator pwm_out3 is absorbed into DSP pwm_out3.
+DSP Report: Generating DSP pwm_out3, operation Mode is: (A:0x7d0)*B.
+DSP Report: operator pwm_out3 is absorbed into DSP pwm_out3.
+INFO: [Synth 8-5545] ROM "change_flag" won't be mapped to RAM because address size (33) is larger than maximum supported(18)
+INFO: [Synth 8-5546] ROM "back_over" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "speed_rx/clk_bps_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "speed_tx/clk_bps_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "clk_2s" won't be mapped to RAM because address size (33) is larger than maximum supported(18)
+INFO: [Synth 8-5545] ROM "i2/clk_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+INFO: [Synth 8-5545] ROM "i2/clk_400Hz" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+INFO: [Synth 8-5545] ROM "data_reg" won't be mapped to RAM because address size (33) is larger than maximum supported(18)
+INFO: [Synth 8-5545] ROM "flag" won't be mapped to RAM because address size (33) is larger than maximum supported(18)
+WARNING: [Synth 8-3331] design state has unconnected port pwm7
+WARNING: [Synth 8-3331] design state has unconnected port pwm8
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 615.969 ; gain = 403.613
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 615.969 ; gain = 403.613
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP:
++------------+-------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | Neg Edge Clk | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|pwm         | (A:0x7d0)*B | No           | 8      | 11     | 48     | 25     | 19     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
+|pwm         | (A:0x7d0)*B | No           | 8      | 11     | 48     | 25     | 19     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
+|pwm         | (A:0x7d0)*B | No           | 8      | 11     | 48     | 25     | 19     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
+|pwm         | (A:0x7d0)*B | No           | 8      | 11     | 48     | 25     | 19     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
+|pwm         | (A:0x7d0)*B | No           | 8      | 11     | 48     | 25     | 19     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
+|pwm         | (A:0x7d0)*B | No           | 8      | 11     | 48     | 25     | 19     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
++------------+-------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Forward/slide_over_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\data_reg_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\data_reg_reg[4] )
+WARNING: [Synth 8-3332] Sequential element (slide_over_reg) is unused and will be removed from module forward.
+WARNING: [Synth 8-3332] Sequential element (\blue/uart_tx/tx_data_reg[7] ) is unused and will be removed from module state.
+WARNING: [Synth 8-3332] Sequential element (\blue/uart_tx/tx_data_reg[6] ) is unused and will be removed from module state.
+WARNING: [Synth 8-3332] Sequential element (\blue/uart_tx/tx_data_reg[5] ) is unused and will be removed from module state.
+WARNING: [Synth 8-3332] Sequential element (\csb/i1/distance_reg_reg[7] ) is unused and will be removed from module state.
+WARNING: [Synth 8-3332] Sequential element (\csb/i1/distance_reg_reg[6] ) is unused and will be removed from module state.
+WARNING: [Synth 8-3332] Sequential element (\csb/i1/distance_reg_reg[5] ) is unused and will be removed from module state.
+WARNING: [Synth 8-3332] Sequential element (\csb/i1/distance_reg_reg[4] ) is unused and will be removed from module state.
+WARNING: [Synth 8-3332] Sequential element (\csb/i1/distance_reg_reg[3] ) is unused and will be removed from module state.
+WARNING: [Synth 8-3332] Sequential element (\csb/i1/distance_reg_reg[2] ) is unused and will be removed from module state.
+WARNING: [Synth 8-3332] Sequential element (\csb/i1/distance_reg_reg[1] ) is unused and will be removed from module state.
+WARNING: [Synth 8-3332] Sequential element (\csb/i1/distance_reg_reg[0] ) is unused and will be removed from module state.
+WARNING: [Synth 8-3332] Sequential element (\data_reg_reg[7] ) is unused and will be removed from module state.
+WARNING: [Synth 8-3332] Sequential element (\data_reg_reg[6] ) is unused and will be removed from module state.
+WARNING: [Synth 8-3332] Sequential element (\data_reg_reg[5] ) is unused and will be removed from module state.
+WARNING: [Synth 8-3332] Sequential element (\data_reg_reg[4] ) is unused and will be removed from module state.
+WARNING: [Synth 8-3332] Sequential element (en_slide_reg) is unused and will be removed from module state.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 615.969 ; gain = 403.613
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 615.969 ; gain = 403.613
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 615.969 ; gain = 403.613
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-565] redefining clock 'clk'
+INFO: Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:56 ; elapsed = 00:01:01 . Memory (MB): peak = 636.281 ; gain = 423.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:57 ; elapsed = 00:01:01 . Memory (MB): peak = 639.277 ; gain = 426.922
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:00 ; elapsed = 00:01:05 . Memory (MB): peak = 681.523 ; gain = 469.168
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:01 ; elapsed = 00:01:05 . Memory (MB): peak = 681.523 ; gain = 469.168
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:01 ; elapsed = 00:01:05 . Memory (MB): peak = 681.523 ; gain = 469.168
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:01 ; elapsed = 00:01:06 . Memory (MB): peak = 681.523 ; gain = 469.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:01:01 ; elapsed = 00:01:06 . Memory (MB): peak = 681.523 ; gain = 469.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:01 ; elapsed = 00:01:06 . Memory (MB): peak = 681.523 ; gain = 469.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         2|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------------+------+
+|      |Cell         |Count |
++------+-------------+------+
+|1     |clk_wiz_0    |     1|
+|2     |clk_wiz_0__1 |     1|
+|3     |BUFG         |     1|
+|4     |CARRY4       |   130|
+|5     |DSP48E1      |     6|
+|6     |LUT1         |   371|
+|7     |LUT2         |   147|
+|8     |LUT3         |   110|
+|9     |LUT4         |   182|
+|10    |LUT5         |    71|
+|11    |LUT6         |   416|
+|12    |MUXF7        |     3|
+|13    |FDCE         |    60|
+|14    |FDPE         |     1|
+|15    |FDRE         |   489|
+|16    |IBUF         |     3|
+|17    |OBUF         |    28|
+|18    |OBUFT        |     2|
++------+-------------+------+
+
+Report Instance Areas: 
++------+-------------+------------------+------+
+|      |Instance     |Module            |Cells |
++------+-------------+------------------+------+
+|1     |top          |                  |  2022|
+|2     |  Forward    |forward           |  1349|
+|3     |    PWM1     |pwm               |   116|
+|4     |    PWM2     |pwm_1             |   116|
+|5     |    PWM3     |pwm_2             |   116|
+|6     |    PWM4     |pwm_3             |   116|
+|7     |    PWM5     |pwm_4             |   116|
+|8     |    PWM6     |pwm_5             |   116|
+|9     |  blue       |uart_top          |   251|
+|10    |    speed_rx |speed_select_rx   |    41|
+|11    |    speed_tx |speed_select_rx_0 |    41|
+|12    |    uart_rx  |uart_rx           |    57|
+|13    |    uart_tx  |uart_tx           |    27|
+|14    |  csb        |sonic             |   293|
+|15    |    i1       |sonic_detect      |   196|
+|16    |    i2       |smg_ip_model      |    96|
++------+-------------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:01 ; elapsed = 00:01:06 . Memory (MB): peak = 681.523 ; gain = 469.168
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 20 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:47 ; elapsed = 00:00:55 . Memory (MB): peak = 681.523 ; gain = 132.652
+Synthesis Optimization Complete : Time (s): cpu = 00:01:01 ; elapsed = 00:01:06 . Memory (MB): peak = 681.523 ; gain = 469.168
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 139 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+61 Infos, 30 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:02 ; elapsed = 00:01:05 . Memory (MB): peak = 681.523 ; gain = 459.813
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 681.523 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 13 12:40:23 2016...

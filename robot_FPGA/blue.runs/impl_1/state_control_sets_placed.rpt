@@ -1,0 +1,82 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Sat Aug 13 12:41:07 2016
+| Host         : lenovo1 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file state_control_sets_placed.rpt
+| Design       : state
+| Device       : xc7a15t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    29 |
+| Minimum Number of register sites lost to control set restrictions |    42 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              43 |           30 |
+| No           | No                    | Yes                    |              48 |           18 |
+| No           | Yes                   | No                     |             345 |           88 |
+| Yes          | No                    | No                     |              77 |           48 |
+| Yes          | No                    | Yes                    |              13 |            6 |
+| Yes          | Yes                   | No                     |              24 |            4 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------+---------------------------------+-----------------------------------+------------------+----------------+
+|            Clock Signal           |          Enable Signal          |          Set/Reset Signal         | Slice Load Count | Bel Load Count |
++-----------------------------------+---------------------------------+-----------------------------------+------------------+----------------+
+|  csb/instance_name/inst/clk_out1  |                                 |                                   |                1 |              2 |
+|  blue/instance_name/inst/clk_out1 |                                 |                                   |                2 |              2 |
+|  blue/instance_name/inst/clk_out1 | blue/uart_tx/num[3]_i_1__0_n_0  | blue/uart_rx/num_reg[3]_0         |                2 |              4 |
+|  blue/instance_name/inst/clk_out1 | blue/uart_rx/num[3]_i_1_n_0     | blue/uart_rx/num_reg[3]_0         |                1 |              4 |
+|  csb/i2/clk_400Hz                 |                                 |                                   |                1 |              4 |
+|  blue/instance_name/inst/clk_out1 | blue/uart_tx/tx_data[4]_i_1_n_0 | blue/uart_rx/num_reg[3]_0         |                3 |              5 |
+|  clk_BUFG                         | count[32]_i_1__5_n_0            |                                   |                1 |              5 |
+|  blue/instance_name/inst/clk_out1 | blue/uart_rx/led[7]_i_1_n_0     |                                   |                3 |              8 |
+|  clk_BUFG                         | Forward/duty2[7]_i_1_n_0        |                                   |                7 |              8 |
+|  clk_BUFG                         | Forward/duty1[7]_i_1_n_0        |                                   |                6 |              8 |
+|  clk_BUFG                         | Forward/duty4[7]_i_1_n_0        |                                   |                6 |              8 |
+|  clk_BUFG                         | Forward/duty3[7]_i_1_n_0        |                                   |                7 |              8 |
+|  clk_BUFG                         | Forward/duty6[7]_i_1_n_0        |                                   |                6 |              8 |
+|  clk_BUFG                         | Forward/duty5[7]_i_1_n_0        |                                   |                7 |              8 |
+|  csb/instance_name/inst/clk_out1  | csb/i1/distance_reg[23]_i_1_n_0 |                                   |                5 |             16 |
+|  csb/instance_name/inst/clk_out1  | csb/i1/cnt[23]_i_1_n_0          | blue/uart_rx/num_reg[3]_0         |                4 |             24 |
+|  csb/instance_name/inst/clk_out1  |                                 | blue/uart_rx/num_reg[3]_0         |                8 |             26 |
+|  csb/instance_name/inst/clk_out1  |                                 | csb/i2/clk_400Hz_0                |                8 |             31 |
+|  clk_BUFG                         |                                 | Forward/change_flag               |                8 |             32 |
+|  clk_BUFG                         |                                 | Forward/PWM6/count[32]_i_1__4_n_0 |                8 |             32 |
+|  clk_BUFG                         |                                 | Forward/PWM5/count[32]_i_1__3_n_0 |                8 |             32 |
+|  clk_BUFG                         |                                 | Forward/PWM4/count[32]_i_1__2_n_0 |                8 |             32 |
+|  clk_BUFG                         |                                 | Forward/PWM3/count[32]_i_1__1_n_0 |                8 |             32 |
+|  clk_BUFG                         |                                 | Forward/PWM2/count[32]_i_1__0_n_0 |                8 |             32 |
+|  clk_BUFG                         |                                 | Forward/PWM1/count[32]_i_1_n_0    |                8 |             32 |
+|  clk_BUFG                         |                                 | count[32]_i_1__5_n_0              |                8 |             32 |
+|  clk_BUFG                         |                                 | blue/clk_2s                       |                8 |             32 |
+|  clk_BUFG                         |                                 |                                   |               26 |             35 |
+|  blue/instance_name/inst/clk_out1 |                                 | blue/uart_rx/num_reg[3]_0         |               18 |             48 |
++-----------------------------------+---------------------------------+-----------------------------------+------------------+----------------+
+
+

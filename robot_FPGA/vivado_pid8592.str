@@ -1,0 +1,554 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 8592
+
+Current time: 	8/12/16 8:54:58 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 2
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	D:/vivado/Vivado/2015.2/tps/win64/jre
+
+User name: 	lenovo
+User directory: C:/Users/lenovo/Desktop/comeon
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/lenovo/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/lenovo/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	121 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 367 MB
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 2.6s
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 38 MB (+36852kb) [00:00:23]
+// [Engine Memory]: 360 MB (+226236kb) [00:00:23]
+// TclEventType: PROJECT_OPEN_DIALOG
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\lenovo\Desktop\comeon\blue.xpr. Version: Vivado v2015.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/lenovo/Desktop/comeon/blue.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 392 MB. GUI used memory: 30 MB. Current time: 8/12/16 8:55:00 PM CST
+// [Engine Memory]: 393 MB (+15232kb) [00:00:28]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 50 MB (+10746kb) [00:00:32]
+// [Engine Memory]: 444 MB (+33321kb) [00:00:34]
+// [GUI Memory]: 58 MB (+6513kb) [00:00:37]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/lenovo/Desktop/comeon/blue.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 468 MB (+1427kb) [00:00:39]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: blue; location: C:/Users/lenovo/Desktop/comeon; part: xc7a15tcsg324-2L
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 624.566 ; gain = 81.152 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 482 MB. GUI used memory: 33 MB. Current time: 8/12/16 8:55:21 PM CST
+// PAPropertyPanels.initPanels (state.v) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+// [GUI Memory]: 61 MB (+13kb) [00:00:59]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v), Forward - forward (forward.v)]", 2, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v), Forward - forward (forward.v), PWM2 - pwm (pwm.v)]", 4, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// [Engine Memory]: 495 MB (+4315kb) [00:01:37]
+// [GUI Memory]: 65 MB (+667kb) [00:01:57]
+// [GUI Memory]: 69 MB (+671kb) [00:05:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 507 MB. GUI used memory: 42 MB. Current time: 8/12/16 9:01:46 PM CST
+// [GUI Memory]: 73 MB (+788kb) [00:10:10]
+// [GUI Memory]: 77 MB (+32kb) [00:14:07]
+// [GUI Memory]: 81 MB (+436kb) [00:17:48]
+// Elapsed time: 1540 seconds
+selectCodeEditor("forward.v", 402, 224, false, false, false, true, false); // bj:J (JPanel:JComponent, cl:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_DUPLICATE_SELECTION, "Duplicate Selection"); // ab:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 64 seconds
+selectCodeEditor("forward.v", 65, 191); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 14, 204); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 0, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 19 seconds
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 76 seconds
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 85 MB (+161kb) [00:35:42]
+// HMemoryUtils.trashcanNow. Engine heap size: 522 MB. GUI used memory: 62 MB. Current time: 8/12/16 9:31:46 PM CST
+// [Engine Memory]: 522 MB (+1897kb) [00:37:18]
+// [GUI Memory]: 91 MB (+835kb) [00:42:47]
+// [GUI Memory]: 96 MB (+1017kb) [00:46:33]
+// HMemoryUtils.trashcanNow. Engine heap size: 529 MB. GUI used memory: 69 MB. Current time: 8/12/16 9:45:07 PM CST
+// Elapsed time: 1459 seconds
+selectCodeEditor("forward.v", 1, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 101 MB (+143kb) [00:56:45]
+// [GUI Memory]: 106 MB (+212kb) [01:00:41]
+// Elapsed time: 1567 seconds
+selectCodeEditor("forward.v", 197, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("forward.v", 199, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 199, 228); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 552 MB. GUI used memory: 88 MB. Current time: 8/12/16 10:15:10 PM CST
+// [Engine Memory]: 552 MB (+4024kb) [01:20:38]
+// Elapsed time: 56 seconds
+selectCodeEditor("forward.v", 199, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 328, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 202, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 331, 282); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("forward.v", 200, 199); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 272, 194); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 280, 134); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 324, 138); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 196, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 285, 161); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 322, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 198, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 112 MB (+274kb) [01:27:59]
+// Elapsed time: 405 seconds
+selectCodeEditor("forward.v", 202, 227); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 192, 230); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 203, 233); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 205, 271); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("forward.v", 153, 330); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("forward.v", 246, 293); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 107, 291); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 153, 289); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 247 seconds
+selectCodeEditor("forward.v", 276, 293); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 250, 312); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("forward.v", 155, 309); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("forward.v", 283, 309); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 243, 332); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 118 MB (+471kb) [01:35:35]
+// [GUI Memory]: 124 MB (+168kb) [01:36:10]
+// Elapsed time: 213 seconds
+selectCodeEditor("forward.v", 257, 331); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("forward.v", 158, 280); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 131 MB (+1069kb) [01:39:01]
+selectCodeEditor("forward.v", 245, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 135 seconds
+selectCodeEditor("forward.v", 311, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("forward.v", 317, 216); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 153, 248); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 98, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 351, 242); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 206, 317); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 321, 306); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 201, 272); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 326, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 226 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// HMemoryUtils.trashcanNow. Engine heap size: 579 MB. GUI used memory: 83 MB. Current time: 8/12/16 10:40:18 PM CST
+// aR:ah (cl:JFrame): Save Project: addNotify
+// [Engine Memory]: 582 MB (+2130kb) [01:45:46]
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ah)
+// cp:P (cl:JFrame):  Save Constraints : addNotify
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Fri Aug 12 22:40:21 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/comeon/blue.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 35 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 610 MB. GUI used memory: 71 MB. Current time: 8/12/16 10:41:08 PM CST
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Implementation Completed: addNotify
+// Elapsed time: 57 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ap)
+dismissDialog("Implementation Completed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 14, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// cp:P (cl:JFrame):  Open Elaborated Design : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a15tcsg324-2L Top: state 
+// [Engine Memory]: 637 MB (+27277kb) [01:47:29]
+// HMemoryUtils.trashcanNow. Engine heap size: 650 MB. GUI used memory: 71 MB. Current time: 8/12/16 10:42:03 PM CST
+// TclEventType: ELABORATE_FINISH
+// [Engine Memory]: 739 MB (+74330kb) [01:47:34]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 878 MB (+106389kb) [01:47:39]
+// HMemoryUtils.trashcanNow. Engine heap size: 878 MB. GUI used memory: 69 MB. Current time: 8/12/16 10:42:12 PM CST
+// Xgd.load filename: D:/vivado/Vivado/2015.2/data/parts/xilinx/artix7/artix7/xc7a15t/xc7a15t.xgd; ZipEntry: xc7a15t_floorplan.xgd elapsed time: 0.5s
+// Xgd.load filename: D:/vivado/Vivado/2015.2/data/parts/xilinx/artix7/artix7/xc7a15t/xc7a15t.xgd; ZipEntry: xc7a15t_detail.xgd elapsed time: 1.9s
+// [Engine Memory]: 941 MB (+20495kb) [01:47:42]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 2.2s
+// TclEventType: DESIGN_NEW
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:02:08 ; elapsed = 01:47:43 . Memory (MB): peak = 758.730 ; gain = 546.395 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'state' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:23] 
+// Tcl Message: 	Parameter T1S bound to: 20000000 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'forward' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/forward.v:3] 
+// Tcl Message: 	Parameter T2S bound to: 3000000 - type: integer  	Parameter stand_up bound to: 3'b000  	Parameter r_dev bound to: 3'b001  	Parameter move_l bound to: 3'b010  	Parameter l_dev bound to: 3'b011  	Parameter move_r bound to: 3'b100  	Parameter restore bound to: 3'b101  	Parameter stop bound to: 3'b110  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'pwm' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/pwm.v:23] 
+// Tcl Message: 	Parameter T20MS bound to: 2000000 - type: integer  	Parameter T20US bound to: 2000 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'pwm' (1#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/pwm.v:23] INFO: [Synth 8-256] done synthesizing module 'forward' (2#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/forward.v:3] INFO: [Synth 8-638] synthesizing module 'uart_top' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/uart_top.v:23] 
+// Tcl Message: 	Parameter T1S bound to: 100000000 - type: integer  
+// Tcl Message: 	Parameter idle bound to: 2'b00  	Parameter state1 bound to: 2'b01  	Parameter state2 bound to: 2'b10  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'sonic_detect' (8#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/sonic_detect.v:21] INFO: [Synth 8-638] synthesizing module 'smg_ip_model' [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/smg_ip_model.v:23] 
+// Tcl Message: INFO: [Synth 8-226] default block is never used [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/smg_ip_model.v:56] INFO: [Synth 8-256] done synthesizing module 'smg_ip_model' (9#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/smg_ip_model.v:23] INFO: [Synth 8-256] done synthesizing module 'sonic' (10#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/sonic.v:21] INFO: [Synth 8-226] default block is never used [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:56] INFO: [Synth 8-226] default block is never used [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:79] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'state' (11#1) [C:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/new/state.v:23] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:02:10 ; elapsed = 01:47:46 . Memory (MB): peak = 796.426 ; gain = 584.090 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:11 ; elapsed = 01:47:46 . Memory (MB): peak = 796.426 ; gain = 584.090 --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'C:/Users/lenovo/Desktop/comeon/blue.runs/clk_wiz_0_synth_1/clk_wiz_0.dcp' for cell 'blue/instance_name' INFO: [Project 1-454] Reading design checkpoint 'C:/Users/lenovo/Desktop/comeon/blue.runs/clk_wiz_0_synth_1/clk_wiz_0.dcp' for cell 'csb/instance_name' INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2015.2 INFO: [Device 21-403] Loading part xc7a15tcsg324-2L INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/lenovo/Desktop/comeon/.Xil/Vivado-8592-lenovo1/dcp/clk_wiz_0_in_context.xdc] for cell 'blue/instance_name' Finished Parsing XDC File [C:/Users/lenovo/Desktop/comeon/.Xil/Vivado-8592-lenovo1/dcp/clk_wiz_0_in_context.xdc] for cell 'blue/instance_name' Parsing XDC File [C:/Users/lenovo/Desktop/comeon/.Xil/Vivado-8592-lenovo1/dcp/clk_wiz_0_in_context.xdc] for cell 'csb/instance_name' 
+// Tcl Message: Finished Parsing XDC File [c:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'blue/instance_name/inst' Parsing XDC File [c:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'csb/instance_name/inst' 
+// Tcl Message: Finished Parsing XDC File [c:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'csb/instance_name/inst' 
+// Tcl Message: INFO: [Timing 38-2] Deriving generated clocks INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/lenovo/Desktop/comeon/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/state_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/state_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: Parsing XDC File [C:/Users/lenovo/Desktop/comeon/blue.srcs/constrs_1/new/state.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/lenovo/Desktop/comeon/blue.srcs/constrs_1/new/state.xdc] 
+// Tcl Message: Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-141] Inserted 28 OBUFs to IO ports without IO buffers. INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:02:28 ; elapsed = 01:48:02 . Memory (MB): peak = 1100.758 ; gain = 888.422 
+// Tcl Message: 36 Infos, 11 Warnings, 2 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:23 . Memory (MB): peak = 1100.758 ; gain = 345.027 
+// 'dm' command handler elapsed time: 23 seconds
+// N:a (cl:JFrame): Critical Messages: addNotify
+// Elapsed time: 24 seconds
+dismissDialog("Open Elaborated Design"); // cp:P (cl:JFrame)
+dismissDialog("Critical Messages"); // N:a (cl:JFrame)
+// [GUI Memory]: 139 MB (+980kb) [01:48:01]
+// PAPropertyPanels.initPanels (blue (uart_top)) elapsed time: 0.3s
+// [GUI Memory]: 147 MB (+1111kb) [01:48:46]
+// Elapsed time: 83 seconds
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // g:X
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Elaborated Design, Schematic]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// PAPropertyPanels.initPanels (pwm2_OBUF) elapsed time: 0.3s
+// y:cp (cl:JFrame):  Generate Schematic : addNotify
+// Elapsed time: 20 seconds
+dismissDialog("Generate Schematic"); // y:cp (cl:JFrame)
+// Elapsed time: 34 seconds
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // g:X
+// [GUI Memory]: 157 MB (+2797kb) [01:50:15]
+// Elapsed time: 110 seconds
+selectCodeEditor("forward.v", 319, 88); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("forward.v", 44, 160); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("forward.v", 44, 125); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 969 MB. GUI used memory: 108 MB. Current time: 8/12/16 10:47:34 PM CST
+// Elapsed time: 16 seconds
+selectCodeEditor("forward.v", 34, 183); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 14, 183); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 125, 272); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 13, 143); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 7, 141); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 16, 143); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 3, 139); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 19, 186); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 170 seconds
+selectCodeEditor("forward.v", 288, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 52 seconds
+selectCodeEditor("forward.v", 174, 233); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 170, 272); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 196, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("forward.v", 311, 259); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 240, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 44 seconds
+typeControlKey(null, null, 'z');
+selectCodeEditor("forward.v", 118, 289); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 13, 261); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 173 seconds
+selectCodeEditor("forward.v", 213, 8); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("forward.v", 548, 84); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 177, 137); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 98 seconds
+selectCodeEditor("forward.v", 145, 81); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 242, 88); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 375, 82); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 474, 75); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 475, 78); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 548, 82); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("forward.v", 344, 225); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("forward.v", 146, 332); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 480, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 547, 212); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 545, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 534, 241); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 544, 210); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("forward.v", 138, 268); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 94 seconds
+selectCodeEditor("forward.v", 13, 137); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 0, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 220, 271); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 101, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 122, 161); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 149, 201); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 116, 169); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("forward.v", 375, 201); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 94, 293); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 81, 286); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 268, 289); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 142, 290); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 104, 322); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("forward.v", 62, 176); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 117, 226); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("forward.v", 583, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("forward.v", 213, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 218, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 198, 261); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 208, 291); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 105, 262); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 103, 214); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("forward.v", 101, 306); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("forward.v", 107, 343); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 166, 346); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 105, 331); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("forward.v", 125, 357); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 198, 230); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 9, 248); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 108, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 106, 260); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("forward.v", 198, 272); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 209, 288); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 210, 276); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 104, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 36 seconds
+selectCodeEditor("forward.v", 208, 314); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 59 seconds
+selectCodeEditor("forward.v", 70, 332); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 22 seconds
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 159, 327); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 182, 329); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("forward.v", 567, 276); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 569, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 615, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 490, 174); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 548, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 59 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 28, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("forward.v", 337, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Aug 12 23:10:31 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/comeon/blue.runs/synth_1/runme.log [Fri Aug 12 23:10:31 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/comeon/blue.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 414 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 986 MB. GUI used memory: 115 MB. Current time: 8/12/16 11:17:38 PM CST

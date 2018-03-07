@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Aug 12 20:54:15 2016
+# Process ID: 8592
+# Log file: C:/Users/lenovo/Desktop/comeon/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/comeon\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/comeon/blue.xpr
+reset_run impl_1
+launch_runs impl_1
+wait_on_run impl_1
+synth_design -rtl -name rtl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1

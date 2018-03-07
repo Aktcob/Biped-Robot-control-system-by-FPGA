@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 主菜单相关 -->
+    <string name="app_name">Android蓝牙串口助手</string>
+    <string name="paried_title">已配对设备</string>
+    <string name="connected_device">已连接设备：</string>
+    <string name="tx_history">发送历史:</string>
+    <string name="rx_history">接收历史:</string>
+    <string name="sendButton">发送</string>
+    <string name="nodevice">未连接设备</string>
+    <string name="clearTx">清空发送数据</string>
+    <string name="clearRx">清空接收数据</string>
+    <string name="disconnect">断开连接</string>
+    <string name="title_connecting">连接中...</string>
+    <string name="title_connected_to">已连接: </string>
+    <string name="title_not_connected">未连接设备</string>
+    <string name="clearALL">清空</string>
+    <string name="forward">前进</string>
+    <string name="back">后退</string>
+    <!-- 菜单 -->
+    <string name="scan">搜索</string>
+    <string name="discoverable">设备可检测</string>
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+    <!-- 搜索界面 -->
+    <string name="noNewDevice">没有发现新设备</string>
+    <string name="noPairedDevice">没有配对的设备</string>
+    <string name="scanning">搜索中...</string>
+    <string name="select_device">选择设备配对</string>
+    <string name="pairedDevice">已配对的设备</string>
+    <string name="newDevice">新搜索的设备</string>
+    <string name="scanNew">搜索新设备</string>
+    <!-- about菜单 -->
+    <string name="app_about">关于android蓝牙串口助手：
+          	本蓝牙串口调试程序方便手机与蓝牙串口设备进行通信。使用之前因先将手机与设备连接，
+          	连接之后就可以像电脑端的串口调试助手一样使用了。
+          	本软件由小林编写：http://www.14blog.com</string>
+
+</resources>

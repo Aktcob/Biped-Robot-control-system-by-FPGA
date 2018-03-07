@@ -1,0 +1,2298 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 10872
+
+Current time: 	8/4/16 10:03:39 AM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 2
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	D:/vivado/Vivado/2015.2/tps/win64/jre
+
+User name: 	lenovo
+User directory: C:/Users/lenovo/Desktop/try
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/lenovo/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/lenovo/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	133 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 373 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 38 MB (+37048kb) [00:00:20]
+// [Engine Memory]: 361 MB (+226691kb) [00:00:20]
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\lenovo\Desktop\try\blue.xpr. Version: Vivado v2015.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/lenovo/Desktop/try/blue.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 393 MB. GUI used memory: 27 MB. Current time: 8/4/16 10:03:41 AM CST
+// [Engine Memory]: 394 MB (+15627kb) [00:00:25]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 47 MB (+8101kb) [00:00:30]
+// [Engine Memory]: 438 MB (+26343kb) [00:00:32]
+// [GUI Memory]: 51 MB (+1209kb) [00:00:35]
+// [GUI Memory]: 58 MB (+5217kb) [00:00:36]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/lenovo/Desktop/try/blue.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 462 MB (+1800kb) [00:00:38]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: blue; location: C:/Users/lenovo/Desktop/try; part: xc7a15tcsg324-2L
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 645.539 ; gain = 88.102 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 478 MB. GUI used memory: 34 MB. Current time: 8/4/16 10:04:01 AM CST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// [Engine Memory]: 486 MB (+363kb) [00:00:47]
+// Tcl Message: open_hw 
+// Elapsed time: 21 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// cp:P (cl:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.2   **** Build date : Jun 26 2015-16:56:39     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// [Engine Memory]: 545 MB (+36655kb) [00:01:12]
+dismissDialog("Auto Connect"); // cp:P (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 547 MB. GUI used memory: 35 MB. Current time: 8/4/16 10:04:32 AM CST
+// Elapsed time: 26 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// [GUI Memory]: 66 MB (+4701kb) [00:01:42]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 24 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cl:JFrame)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// [GUI Memory]: 69 MB (+181kb) [00:03:03]
+// Elapsed time: 213 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// [GUI Memory]: 73 MB (+88kb) [00:05:47]
+// Elapsed time: 12 seconds
+selectCodeEditor("state.v", 268, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 216, 177); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 19, 201); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 77 MB (+675kb) [00:08:16]
+// [Engine Memory]: 580 MB (+8776kb) [00:08:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 42 MB. Current time: 8/4/16 10:11:47 AM CST
+// Elapsed time: 331 seconds
+selectCodeEditor("state.v", 78, 259); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 78, 259, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "state.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 22 seconds
+typeControlKey((HResource) null, "state.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 378, 125); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 379, 119); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "state.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 3, 149); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "state.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 459, 158); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 0, 135); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 117, 140); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 294, 145); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 323, 144); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 323, 157); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 278, 158); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 278, 158, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "state.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 271, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "state.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "state.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "state.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v), Forward - forward (forward.v)]", 2, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v), Forward - forward (forward.v), PWM2 - pwm (pwm.v)]", 4, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("forward.v", 130, 106); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("forward.v", 127, 179); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 40 seconds
+selectCodeEditor("forward.v", 303, 120); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 217, 100); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 210, 115); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 312, 114); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("forward.v", 279, 183); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 84 MB (+3429kb) [00:14:47]
+// Elapsed time: 121 seconds
+selectCodeEditor("forward.v", 72, 136); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 72, 136, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 65 seconds
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 393, 174); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 195, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("forward.v", 439, 143); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 231, 224); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 90 seconds
+selectCodeEditor("forward.v", 319, 105); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 192, 184); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 52 seconds
+selectCodeEditor("forward.v", 381, 172); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 368, 174); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 206, 244); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 205, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 436, 143); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 514, 158); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 481, 148); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 471, 129); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 469, 128); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 447, 142); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 234, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 262, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("forward.v", 436, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 12, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 5, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 3, 216); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 242, 213); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 419, 173); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 38, 207); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 14, 210); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 14, 196); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("forward.v", 98, 204); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 2, 142); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 99, 69); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 115, 62); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 400, 101); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 400, 101); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 400, 101, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("forward.v", 434, 99); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 434, 99, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 87, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 87, 198, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 55 seconds
+selectCodeEditor("forward.v", 89, 261); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 58, 191); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 112 seconds
+selectCodeEditor("forward.v", 296, 243); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 313, 246); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 311, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 151 seconds
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 605 MB. GUI used memory: 59 MB. Current time: 8/4/16 10:31:42 AM CST
+// Elapsed time: 10 seconds
+selectCodeEditor("forward.v", 300, 222); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 98, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 34 seconds
+selectCodeEditor("forward.v", 102, 314); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 210, 184); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 89, 154); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 105, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 98, 364); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 71, 306); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 14, 259); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 1, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 144, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 36 seconds
+selectCodeEditor("forward.v", 326, 270); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 326, 248); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("forward.v", 195, 280); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 324, 232); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("forward.v", 190, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 320, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 223, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 244, 296); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 323, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 113, 270); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 107, 270); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 44 seconds
+selectCodeEditor("forward.v", 319, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 314, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 155, 288); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 239, 298); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 232, 291); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 272, 293); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 317, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 241, 313); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 115, 317); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 318, 262); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 90 MB (+1705kb) [00:32:18]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// [GUI Memory]: 95 MB (+641kb) [00:32:22]
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ah)
+// cp:P (cl:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 10:35:41 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 10:35:41 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 617 MB (+7669kb) [00:32:56]
+// [GUI Memory]: 101 MB (+705kb) [00:33:36]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 315 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// cp:P (cl:JFrame):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.2   **** Build date : Jun 26 2015-16:56:39     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // cp:P (cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "Programmed", 1, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("state.v", 121, 31); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 122, 31); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "forward.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("forward.v", 123, 272); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 41 seconds
+selectCodeEditor("forward.v", 188, 160); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 299, 158); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 198, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 283, 276); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 629 MB. GUI used memory: 68 MB. Current time: 8/4/16 10:42:57 AM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 10:43:18 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 10:43:18 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 99 seconds
+selectCodeEditor("forward.v", 312, 209); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// Elapsed time: 48 seconds
+selectCodeEditor("forward.v", 404, 205); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 380, 235); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 200 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 546 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (1) ; Open", 1, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// [GUI Memory]: 106 MB (+51kb) [00:58:25]
+// [GUI Memory]: 112 MB (+380kb) [00:59:31]
+// Elapsed time: 549 seconds
+selectCodeEditor("forward.v", 318, 192); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("forward.v", 316, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 340, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 311, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 319, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("forward.v", 156, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 159, 272); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 191, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 233, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 92 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 11:10:18 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 11:10:18 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 639 MB. GUI used memory: 69 MB. Current time: 8/4/16 11:12:57 AM CST
+// Elapsed time: 174 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 135 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("forward.v", 317, 236); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 310, 194); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 105, 221); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 330, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 321, 206); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 315, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 71, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 151, 215); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 11:16:45 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 11:16:45 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 120 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 117 MB (+109kb) [01:17:19]
+// Elapsed time: 335 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 53 seconds
+selectCodeEditor("forward.v", 77, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 10, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("forward.v", 339, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 234, 240); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 211, 243); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 323, 86); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 324, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 100, 136); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 235, 116); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 329, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 152, 180); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 194, 180); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 168, 172); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 193, 177); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 171, 195); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 289, 175); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 11:27:07 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 11:27:08 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 146 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 62 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 53 seconds
+selectCodeEditor("forward.v", 194, 146); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 309, 141); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 192, 136); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 212, 278); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 292, 276); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("forward.v", 87, 296); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 124, 196); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 3, 223); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 41 seconds
+selectCodeEditor("forward.v", 326, 100); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 326, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+typeControlKey(null, null, 'z');
+selectCodeEditor("forward.v", 336, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("forward.v", 155, 151); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("forward.v", 436, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 100, 174); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 109, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 117, 227); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 330, 293); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("forward.v", 198, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("forward.v", 173, 152); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 295, 158); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 331, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 44 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 11:35:20 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 11:35:20 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 109 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 168 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 7 seconds
+selectCodeEditor("forward.v", 349, 264, false, false, false, true, false); // bj:J (JPanel:JComponent, cl:JFrame) - Popup Trigger
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// [GUI Memory]: 123 MB (+53kb) [01:37:23]
+// Elapsed time: 36 seconds
+selectCodeEditor("forward.v", 488, 224); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 188, 63); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 307, 66); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 206, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 287, 196); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ah)
+// cp:P (cl:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+dismissDialog("Save Constraints"); // cp:P (cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 11:41:17 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 639 MB. GUI used memory: 54 MB. Current time: 8/4/16 11:42:57 AM CST
+// Elapsed time: 234 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 11:45:13 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 11:45:13 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 111 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-DLC9-Port_#0001.Hub_#0003 is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 639 MB. GUI used memory: 42 MB. Current time: 8/4/16 12:12:58 PM CST
+// Elapsed time: 1684 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0) ; Closed", 1, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0)", 0, false, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "localhost (1) ; Connected", 0, "localhost (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_SERVER, "Close Server"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_SERVER
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 211 seconds
+selectCodeEditor("forward.v", 559, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 333, 106); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 70 seconds
+selectCodeEditor("forward.v", 268, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 152, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 269, 184); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 12:20:24 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 12:20:24 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 251 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 179 seconds
+selectCodeEditor("forward.v", 266, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 238, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 238, 182, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("forward.v", 259, 179); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 117 seconds
+selectCodeEditor("forward.v", 327, 85); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 12:29:52 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 12:29:52 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 204 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// Elapsed time: 14 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 337 seconds
+selectCodeEditor("forward.v", 259, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 355, 215); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 186, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 119 seconds
+selectCodeEditor("forward.v", 188, 235); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 194, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("forward.v", 219, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 320, 231); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 269, 232); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("forward.v", 147, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 12:42:33 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 12:42:33 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 639 MB. GUI used memory: 40 MB. Current time: 8/4/16 12:42:58 PM CST
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 89 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cl:JFrame)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v), Forward - forward (forward.v)]", 2); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v), blue - uart_top (uart_top.v)]", 3); // A:k (H:JPanel, cl:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v), blue - uart_top (uart_top.v)]", 3); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v), csb - sonic (sonic.v)]", 4); // A:k (H:JPanel, cl:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v), csb - sonic (sonic.v)]", 4); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v), Forward - forward (forward.v)]", 2); // A:k (H:JPanel, cl:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v), Forward - forward (forward.v)]", 2); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v), blue - uart_top (uart_top.v)]", 3); // A:k (H:JPanel, cl:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v), blue - uart_top (uart_top.v)]", 3); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v), Forward - forward (forward.v)]", 2, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state (state.v), Forward - forward (forward.v)]", 2, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 247 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// cp:P (cl:JFrame):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.2   **** Build date : Jun 26 2015-16:56:39     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // cp:P (cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 63 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 34 seconds
+selectCodeEditor("state.v", 287, 120); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 152 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "forward.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("forward.v", 201, 177); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("forward.v", 171, 175); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 171, 175, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 204, 19); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 204, 19, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 230, 25); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 243 seconds
+selectCodeEditor("forward.v", 388, 204); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("forward.v", 125, 272); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 139, 230); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 238, 140); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 238, 140, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 157, 227); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 157, 227, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("forward.v", 152, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 152, 237, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 397, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 283, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 212, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 230, 201); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 175, 205); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 9, 192); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 189, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 221, 196); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("forward.v", 224, 65); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("forward.v", 187, 164); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 33 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 13:00:00 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 13:00:00 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 510 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("forward.v", 287, 168); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 255, 166); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 203, 164); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 639 MB. GUI used memory: 44 MB. Current time: 8/4/16 1:12:58 PM CST
+// Elapsed time: 307 seconds
+selectCodeEditor("forward.v", 231, 164); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 275, 163); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 62 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aR:ah)
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+selectCodeEditor("forward.v", 249, 161); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ah)
+// cp:P (cl:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+dismissDialog("Save Constraints"); // cp:P (cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 13:15:19 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 90 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 13:16:50 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 13:16:50 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 145 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 52 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 539 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 235 seconds
+selectCodeEditor("state.v", 276, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 130 seconds
+selectCodeEditor("state.v", 104, 278); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 353, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 322, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 349, 222); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "state.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 340, 222); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 353, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "state.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 119, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 291, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 291, 253, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("state.v", 73, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 73, 273, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "state.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 294, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 294, 199, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "state.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 355, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "state.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 238, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("state.v", 327, 216); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("state.v", 258, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "state.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "state.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "forward.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("forward.v", 188, 102); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "forward.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("forward.v", 303, 209); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 300, 196); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("forward.v", 92, 109); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 92, 109, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 478, 137); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 191, 240); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 184, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 524, 174); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 212, 270); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 405, 156); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 158, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("forward.v", 457, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("forward.v", 163, 233); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 464, 158); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 171, 251); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 444, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("forward.v", 434, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 4, 229); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 265, 231); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 639 MB. GUI used memory: 45 MB. Current time: 8/4/16 1:42:58 PM CST
+// Elapsed time: 343 seconds
+selectCodeEditor("forward.v", 95, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 1, 100); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 84, 102); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 92, 100); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 429, 82); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 4, 147); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 4, 145); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 231, 140); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 96, 233); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 498, 85); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 498, 85, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("forward.v", 488, 76); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 488, 76, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 78, 194); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 78, 194, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 90, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 1, 248); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 41 seconds
+selectCodeEditor("forward.v", 131, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 5, 86); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 105, 241); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 7, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 56 seconds
+selectCodeEditor("forward.v", 261, 106); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 293, 117); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 341, 180); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 13:48:41 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 13:48:41 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 108 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 166 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 165 seconds
+selectCodeEditor("forward.v", 179, 222); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 13:56:21 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 13:56:21 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 950 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("forward.v", 201, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 14:12:56 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 14:12:56 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// HMemoryUtils.trashcanNow. Engine heap size: 639 MB. GUI used memory: 39 MB. Current time: 8/4/16 2:12:58 PM CST
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 183 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 53 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 38 seconds
+selectCodeEditor("forward.v", 244, 141); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 243, 147); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 38 seconds
+selectCodeEditor("forward.v", 121, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 141, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 1, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 54 seconds
+typeControlKey(null, null, 'z');
+selectCodeEditor("forward.v", 199, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 14:19:33 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 14:19:33 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 265 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 58 seconds
+selectCodeEditor("forward.v", 205, 164); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 14:25:17 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 14:25:18 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 139 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 72 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 7 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 73 seconds
+selectCodeEditor("forward.v", 126, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 4, 239); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 126 seconds
+selectCodeEditor("forward.v", 316, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 377, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 270, 138); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 14:33:03 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 14:33:03 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 120 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 96 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 639 MB. GUI used memory: 42 MB. Current time: 8/4/16 2:43:00 PM CST
+// Elapsed time: 565 seconds
+selectCodeEditor("forward.v", 247, 123); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Aug 04 14:46:28 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 14:46:28 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 111 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 106 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 67 seconds
+selectCodeEditor("forward.v", 166, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 172, 214); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 0, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 285, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 329, 186); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 254, 101); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 254, 101, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 165, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 165, 182, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("forward.v", 220, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 212, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("forward.v", 339, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("forward.v", 213, 272); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 259, 272); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 345, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("forward.v", 207, 67); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("forward.v", 377, 196); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 381, 195); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 336, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 221, 213); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 218, 215); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("forward.v", 283, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 256, 247); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 253, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 253, 253, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 14:54:18 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 14:54:18 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 115 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 95 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 7 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 255 seconds
+selectCodeEditor("forward.v", 297, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 245, 249); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 196, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 15:02:34 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 15:02:34 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 145 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 91 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 52 seconds
+selectCodeEditor("forward.v", 385, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("forward.v", 378, 243); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 330, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 330, 274, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("forward.v", 330, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 327, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 327, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 327, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 101, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 200, 126); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "forward.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 235, 125); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 82, 102); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 243, 222); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 243, 222, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 15:08:31 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 15:08:31 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 253 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 639 MB. GUI used memory: 41 MB. Current time: 8/4/16 3:13:01 PM CST
+// Elapsed time: 214 seconds
+selectCodeEditor("forward.v", 206, 192); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 38 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 15:17:06 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 15:17:06 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 194 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 14 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 182 seconds
+selectCodeEditor("forward.v", 248, 67); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 359, 67); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 246, 66); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 340, 216); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("forward.v", 261, 223); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 183 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 15:27:03 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 15:27:03 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 110 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 162 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a15t_0 (1) ; Programmed", 2, "xc7a15t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 128 seconds
+selectCodeEditor("forward.v", 279, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("forward.v", 214, 195); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 89 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Aug 04 15:35:34 2016] Launched synth_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log [Thu Aug 04 15:35:34 2016] Launched impl_1... Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log 
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false, false, false, false, true, false); // w:Y (v:H, cl:JFrame) - Popup Trigger
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager]", 26, true, false, false, false, true, false); // w:Y (v:H, cl:JFrame) - Popup Trigger - Node
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 105 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// TclEventType: RUN_COMPLETED

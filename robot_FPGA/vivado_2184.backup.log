@@ -1,0 +1,221 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Aug 02 16:03:11 2016
+# Process ID: 4992
+# Log file: C:/Users/lenovo/Desktop/try/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/try\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/try/blue.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:11 . Memory (MB): peak = 748.695 ; gain = 173.992
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Tue Aug 02 16:09:03 2016] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log
+[Tue Aug 02 16:09:03 2016] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 857.184 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Tue Aug 02 16:13:29 2016] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log
+[Tue Aug 02 16:13:29 2016] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/forward.v" into library work [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/forward.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/pwm.v" into library work [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/pwm.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/smg_ip_model.v" into library work [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/smg_ip_model.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/sonic.v" into library work [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/sonic.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/sonic_detect.v" into library work [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/sonic_detect.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/speed_select_rx.v" into library work [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/speed_select_rx.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/state.v" into library work [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/state.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/uart_rx.v" into library work [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/uart_rx.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/uart_top.v" into library work [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/uart_top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/uart_tx.v" into library work [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/uart_tx.v:1]
+[Tue Aug 02 16:14:01 2016] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Tue Aug 02 16:14:04 2016] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log
+[Tue Aug 02 16:14:04 2016] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Tue Aug 02 16:20:40 2016] Launched synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/synth_1/runme.log
+[Tue Aug 02 16:20:40 2016] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/try/blue.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/try/blue.runs/impl_1/state.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 857.184 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a15tcsg324-2L
+Top: state
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/state.v:102]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:02:15 ; elapsed = 00:22:51 . Memory (MB): peak = 893.484 ; gain = 681.047
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'state' [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/state.v:23]
+	Parameter T1S bound to: 20000000 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'forward' [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/forward.v:3]
+	Parameter T2S bound to: 3000000 - type: integer 
+	Parameter stand_up bound to: 3'b000 
+	Parameter r_dev bound to: 3'b001 
+	Parameter move_l bound to: 3'b010 
+	Parameter l_dev bound to: 3'b011 
+	Parameter move_r bound to: 3'b100 
+	Parameter restore bound to: 3'b101 
+INFO: [Synth 8-638] synthesizing module 'pwm' [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/pwm.v:23]
+	Parameter T20MS bound to: 2000000 - type: integer 
+	Parameter T20US bound to: 2000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pwm' (1#1) [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/pwm.v:23]
+INFO: [Synth 8-256] done synthesizing module 'forward' (2#1) [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/forward.v:3]
+INFO: [Synth 8-638] synthesizing module 'uart_top' [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/uart_top.v:23]
+	Parameter T1S bound to: 100000000 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'speed_select_rx' [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/speed_select_rx.v:23]
+INFO: [Synth 8-256] done synthesizing module 'speed_select_rx' (3#1) [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/speed_select_rx.v:23]
+INFO: [Synth 8-638] synthesizing module 'uart_rx' [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/uart_rx.v:23]
+INFO: [Synth 8-256] done synthesizing module 'uart_rx' (4#1) [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/uart_rx.v:23]
+INFO: [Synth 8-638] synthesizing module 'uart_tx' [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/uart_tx.v:23]
+INFO: [Synth 8-256] done synthesizing module 'uart_tx' (5#1) [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/uart_tx.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/lenovo/Desktop/try/.Xil/Vivado-4992-lenovo1/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (6#1) [C:/Users/lenovo/Desktop/try/.Xil/Vivado-4992-lenovo1/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'uart_top' (7#1) [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/uart_top.v:23]
+INFO: [Synth 8-638] synthesizing module 'sonic' [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/sonic.v:21]
+INFO: [Synth 8-638] synthesizing module 'sonic_detect' [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/sonic_detect.v:21]
+	Parameter idle bound to: 2'b00 
+	Parameter state1 bound to: 2'b01 
+	Parameter state2 bound to: 2'b10 
+INFO: [Synth 8-256] done synthesizing module 'sonic_detect' (8#1) [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/sonic_detect.v:21]
+INFO: [Synth 8-638] synthesizing module 'smg_ip_model' [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/smg_ip_model.v:23]
+WARNING: [Synth 8-567] referenced signal 'data' should be on the sensitivity list [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/smg_ip_model.v:44]
+INFO: [Synth 8-226] default block is never used [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/smg_ip_model.v:56]
+INFO: [Synth 8-256] done synthesizing module 'smg_ip_model' (9#1) [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/smg_ip_model.v:23]
+INFO: [Synth 8-256] done synthesizing module 'sonic' (10#1) [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/sonic.v:21]
+INFO: [Synth 8-226] default block is never used [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/state.v:54]
+INFO: [Synth 8-226] default block is never used [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/state.v:77]
+WARNING: [Synth 8-3848] Net pwm7 in module/entity state does not have driver. [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/state.v:29]
+WARNING: [Synth 8-3848] Net pwm8 in module/entity state does not have driver. [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/state.v:29]
+INFO: [Synth 8-256] done synthesizing module 'state' (11#1) [C:/Users/lenovo/Desktop/try/blue.srcs/sources_1/new/state.v:23]
+WARNING: [Synth 8-3331] design state has unconnected port pwm7
+WARNING: [Synth 8-3331] design state has unconnected port pwm8
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:02:17 ; elapsed = 00:22:53 . Memory (MB): peak = 929.410 ; gain = 716.973
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:17 ; elapsed = 00:22:53 . Memory (MB): peak = 929.410 ; gain = 716.973
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/lenovo/Desktop/try/blue.runs/clk_wiz_0_synth_1/clk_wiz_0.dcp' for cell 'blue/instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/lenovo/Desktop/try/blue.runs/clk_wiz_0_synth_1/clk_wiz_0.dcp' for cell 'csb/instance_name'
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7a15tcsg324-2L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+CRITICAL WARNING: [Shape Builder 18-119] Failed to create I/OLOGIC Route Through shape for instance csb/instance_name/inst/clkin1_ibufg. Found overlapping instances within the shape: blue/instance_name/inst/clkin1_ibufg and csb/instance_name/inst/clkin1_ibufg.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/lenovo/Desktop/try/.Xil/Vivado-4992-lenovo1/dcp/clk_wiz_0_in_context.xdc] for cell 'blue/instance_name'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/try/.Xil/Vivado-4992-lenovo1/dcp/clk_wiz_0_in_context.xdc] for cell 'blue/instance_name'
+Parsing XDC File [C:/Users/lenovo/Desktop/try/.Xil/Vivado-4992-lenovo1/dcp/clk_wiz_0_in_context.xdc] for cell 'csb/instance_name'
+WARNING: [Constraints 18-619] A clock with name 'clk' already exists, overwriting the previous clock with the same name. [C:/Users/lenovo/Desktop/try/.Xil/Vivado-4992-lenovo1/dcp/clk_wiz_0_in_context.xdc:1]
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/try/.Xil/Vivado-4992-lenovo1/dcp/clk_wiz_0_in_context.xdc] for cell 'csb/instance_name'
+Parsing XDC File [c:/Users/lenovo/Desktop/try/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'blue/instance_name/inst'
+Finished Parsing XDC File [c:/Users/lenovo/Desktop/try/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'blue/instance_name/inst'
+Parsing XDC File [c:/Users/lenovo/Desktop/try/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'csb/instance_name/inst'
+Finished Parsing XDC File [c:/Users/lenovo/Desktop/try/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'csb/instance_name/inst'
+Parsing XDC File [c:/Users/lenovo/Desktop/try/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'blue/instance_name/inst'
+WARNING: [Constraints 18-619] A clock with name 'clk' already exists, overwriting the previous clock with the same name. [c:/Users/lenovo/Desktop/try/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:55]
+Finished Parsing XDC File [c:/Users/lenovo/Desktop/try/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'blue/instance_name/inst'
+Parsing XDC File [c:/Users/lenovo/Desktop/try/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'csb/instance_name/inst'
+WARNING: [Constraints 18-619] A clock with name 'clk' already exists, overwriting the previous clock with the same name. [c:/Users/lenovo/Desktop/try/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:55]
+Finished Parsing XDC File [c:/Users/lenovo/Desktop/try/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'csb/instance_name/inst'
+INFO: [Timing 38-2] Deriving generated clocks
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/lenovo/Desktop/try/blue.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/state_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/state_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/lenovo/Desktop/try/blue.srcs/constrs_1/new/state.xdc]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Instance csb/instance_name/inst/clkin1_ibufg can not be placed in INBUF_EN of site IOB_X0Y25 because the bel is occupied by blue/instance_name/inst/clkin1_ibufg. This could be caused by bel constraint conflict [C:/Users/lenovo/Desktop/try/blue.srcs/constrs_1/new/state.xdc:1]
+Resolution: Verify the location constraints for differential ports are correctly specified in your constraints. The Site type should be of form: IO_LxxP for P-side, and IO_LxxN for N-side (Neg Diff Pair) 
+WARNING: [Vivado 12-507] No nets matched 'clk_IBUF'. [C:/Users/lenovo/Desktop/try/blue.srcs/constrs_1/new/state.xdc:75]
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/try/blue.srcs/constrs_1/new/state.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/lenovo/Desktop/try/blue.srcs/constrs_1/new/state.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/state_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-141] Inserted 28 OBUFs to IO ports without IO buffers.
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:02:33 ; elapsed = 00:23:07 . Memory (MB): peak = 1236.699 ; gain = 1024.262
+36 Infos, 11 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 1236.699 ; gain = 379.516
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 02 16:29:07 2016...

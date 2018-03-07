@@ -1,0 +1,12 @@
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lenovo/Desktop/comeon/blue.hw/webtalk/labtool_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 3788052198 -regid "233494984_32389024_324566878_235" -xml C:/Users/lenovo/Desktop/comeon/blue.hw/webtalk/usage_statistics_e..."
+    (file "C:/Users/lenovo/Desktop/comeon/blue.hw/webtalk/labtool_webtalk.tcl" line 28)
+INFO: [Common 17-206] Exiting Webtalk at Fri Aug 12 12:35:46 2016...
